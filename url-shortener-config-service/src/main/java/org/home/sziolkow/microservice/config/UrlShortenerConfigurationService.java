@@ -1,4 +1,4 @@
-package org.home.sziolkow.microservice.server;
+package org.home.sziolkow.microservice.config;
 
 
 import org.springframework.boot.SpringApplication;
@@ -7,9 +7,9 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
 @EnableConfigServer
-public class ConfigurationServer {
+public class UrlShortenerConfigurationService {
 
     public static void main(String[] args) {
-        SpringApplication.run(ConfigurationServer.class, args);
+        SpringApplication.run(UrlShortenerConfigurationService.class, args);
     }
 }

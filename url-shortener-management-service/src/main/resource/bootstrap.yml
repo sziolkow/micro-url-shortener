@@ -1,6 +1,3 @@
 spring:
   application:
     name: shortener-management-service
-
-server:
-  port: 8081
