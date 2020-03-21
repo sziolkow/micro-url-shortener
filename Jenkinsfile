@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Initialize') {
       steps {
-        echo 'Minimal pipeline'
+        echo 'Minimal Pipeline'
       }
     }
 
