@@ -1,13 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Build') {
+    stage('Initialize') {
       steps {
-        sh '''                sh \'echo "Hello World"\'
-                sh \'\'\'
-                    echo "Multiline shell steps works too"
-                    ls -lah
-                \'\'\''''
+        echo 'Minimal pipeline'
       }
     }
 
